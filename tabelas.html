@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Projeto html</title>
+
+   <style>
+      body {
+         font-family: sans-serif;
+      }
+
+      table {
+         border-collapse: collapse;
+         width: 800px;
+      }
+
+      table td,
+      table th {
+         border: 1px solid black;
+         padding: 5px;
+         text-align: left;
+      }
+
+      table caption {
+         caption-side: top;
+         margin-bottom: 10px;
+      }
+
+      thead {
+         background: gray;
+      }
+
+      tfoot {
+         background: #ddd;
+      }
+
+      .responsive-table {
+         max-width: 100%;
+         overflow-x: auto;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="responsive-table">
+      <table>
+         <caption>Tabela teste</caption>
+
+         <thead>
+            <tr>
+               <th>Coluna 1</th>
+               <th>Coluna 2</th>
+               <th>Coluna 3</th>
+            </tr>
+         </thead>
+
+         <tbody>
+            <tr>
+               <td>Célula 1</td>
+               <td>Célula 2</td>
+               <td>Célula 3</td>
+            </tr>
+            <tr>
+               <td>Célula 1</td>
+               <td>Célula 2</td>
+               <td>Célula 3</td>
+            </tr>
+            <tr>
+               <td>Célula 1</td>
+               <td>Célula 2</td>
+               <td>Célula 3</td>
+            </tr>
+            <tr>
+               <td>Célula 1</td>
+               <td>Célula 2</td>
+               <td>Célula 3</td>
+            </tr>
+         </tbody>
+
+         <tfoot>
+            <tr>
+               <td colspan="2" rowspan="2"></td>
+            </tr>
+            <tr>
+               <td>TOTAL: <br>R$ 1000,00</td>
+            </tr>
+         </tfoot>
+      </table>
+   </div>
+</body>
+
+</html>
