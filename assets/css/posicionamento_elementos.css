@@ -1,0 +1,12 @@
+ul {
+    height: 250px;
+    font-size: 25px;
+    overflow-y: auto;
+}
+
+ul li.sticky {
+    position: sticky;
+    background: rgb(181, 181, 181);
+    top: 0;
+}
+

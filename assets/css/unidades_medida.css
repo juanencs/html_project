@@ -1,0 +1,40 @@
+/*
+em - relativo ao pai do elemento
+rem - relativo ao html do documento
+vw- ocupacao da largura da tela visivel no navegador
+vh- ocupacao da altura da tela visivel no navegador
+*/
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pai {
+    width: 50rem; /*500px*/
+    height: 100vh;
+    background: red;
+    overflow: hidden;
+}
+
+.pai > div{
+    width: 50%; /*500px*/
+    height: 50rem;
+    background: blue;
+}
+
+p {
+    font-size: 2vmax;
+}
+
+.color-one {
+    background: yellow;
+}
+
+.color-two {
+    background: blue;
+}
